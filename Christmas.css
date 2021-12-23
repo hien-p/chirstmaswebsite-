@@ -1,0 +1,90 @@
+body {
+  background: #333;
+  font-family: "Nunito", sans-serif;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blurb h2 {
+  color: #ea1c2c;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.blurb p {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.blurb i {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 5rem;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#mainNavbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: LightPink;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.navbar.scrolled {
+  background: #eee;
+  transition: background 500ms;
+}
+
+@media (max-width: 950px) {
+  #headingGroup h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 830px) {
+  #headingGroup h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(white, white); /* Workaround for Chromium's selective color inversion */
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+}
+
+.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+
+
+figure {
+  margin: 0;
+}
